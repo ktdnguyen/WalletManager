@@ -1,4 +1,5 @@
 # Wallet Manager
+Due to the advancement of online fast payment technology and online shopping popularity, people no longer need to use cash or bank cards. While improving technology and efficiency, people usually ignore their excessive spending. Simple consumption methods often do not make consumers feel that they are spending money to consume more than their budget. We hope that with the help of this software, users can better manage their finances, understand their consumption level and the proportion of necessary expenses to avoid the impact of excessive consumption on their lives. Our target audience will be the people who want to save money or have better management of their finances.
 
 ## Set Up
 Confirm that your system has a Java 1.8 environment. 
