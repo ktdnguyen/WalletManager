@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="300.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.LoginController">
+   <children>
+      <TextField fx:id="username" layoutX="130.0" layoutY="75.0" prefHeight="27.0" prefWidth="230.0" promptText="Username" />
+      <PasswordField fx:id="password" layoutX="131.0" layoutY="137.0" prefHeight="27.0" prefWidth="230.0" promptText="Password" />
+      <Button fx:id="loginBtn" layoutX="312.0" layoutY="180.0" mnemonicParsing="false" onAction="#Login" text="Login" />
+      <Label fx:id="msg" layoutX="131.0" layoutY="257.0" prefHeight="20.0" prefWidth="230.0">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </Label>
+      <Button fx:id="signup" layoutX="300.0" layoutY="213.0" mnemonicParsing="false" onAction="#Signup" text="Sign up" />
+      <Label layoutX="14.0" layoutY="14.0" prefHeight="23.0" prefWidth="257.0" text="Wallet Manager Login">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="131.0" layoutY="51.0" prefHeight="19.0" prefWidth="89.0" text="User Name:">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="130.0" layoutY="113.0" prefHeight="17.0" prefWidth="95.0" text="Password: ">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

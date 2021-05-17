@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="300.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.SignupController">
+   <children>
+      <Button fx:id="suBtn" layoutX="175.0" layoutY="158.0" mnemonicParsing="false" onAction="#SignUp" text="Sign Up" />
+      <VBox layoutX="63.0" layoutY="23.0" prefHeight="121.0" prefWidth="285.0">
+         <children>
+            <TextField fx:id="username" alignment="CENTER" prefHeight="27.0" prefWidth="102.0" promptText="UserName">
+               <VBox.margin>
+                  <Insets bottom="20.0" />
+               </VBox.margin>
+            </TextField>
+            <PasswordField fx:id="pass1" alignment="CENTER" promptText="Password">
+               <VBox.margin>
+                  <Insets bottom="20.0" />
+               </VBox.margin>
+            </PasswordField>
+            <PasswordField fx:id="pass2" alignment="CENTER" promptText="Confirm Password">
+               <VBox.margin>
+                  <Insets bottom="20.0" />
+               </VBox.margin>
+            </PasswordField>
+         </children>
+      </VBox>
+      <Label fx:id="msg" layoutX="64.0" layoutY="203.0" prefHeight="17.0" prefWidth="285.0" />
+      <Button fx:id="login" layoutX="341.0" layoutY="259.0" mnemonicParsing="false" onAction="#Login" text="login" />
+   </children>
+</AnchorPane>
